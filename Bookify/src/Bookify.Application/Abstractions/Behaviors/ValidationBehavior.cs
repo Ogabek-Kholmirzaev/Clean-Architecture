@@ -1,8 +1,8 @@
 ﻿using Bookify.Application.Abstractions.Messaging;
-using Bookify.Application.Validations;
+using Bookify.Application.Exceptions;
 using FluentValidation;
 using MediatR;
-using ValidationException = Bookify.Application.Validations.ValidationException;
+using ValidationException = Bookify.Application.Exceptions.ValidationException;
 
 namespace Bookify.Application.Abstractions.Behaviors;
 
